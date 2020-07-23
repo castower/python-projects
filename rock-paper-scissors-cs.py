@@ -1,3 +1,7 @@
+# Courtney Stowers
+# July 22, 2020
+# My first Python project after completing freeCodeCamp beginner course on Youtube: https://www.youtube.com/watch?v=rfscVS0vtbw
+
 import random  # use random module for computer to randomly select rock, paper, or scissors
 
 computer = ("rock", "paper", "scissors")  # random option list for computer's game selections
