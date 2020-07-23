@@ -8,6 +8,14 @@ import random  # use random module for computer to randomly select rock, paper, 
 
 computer = ("rock", "paper", "scissors")  # random option list for computer's game selections
 
+print( "\nWelcome to rock, paper, scissors!\n"
+       "\nRules: "
+       "\nRock beats Scissors "
+       "\nScissors beats Paper"
+       "\nPaper beats Rock"
+       "\nTry to outsmart the computer with a winning selection!\n"
+       "\nGood luck!")
+
 
 def rock_paper_scissors():
     player_select = input(
