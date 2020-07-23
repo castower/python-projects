@@ -11,7 +11,7 @@ computer = ("rock", "paper", "scissors")  # random option list for computer's ga
 
 def rock_paper_scissors():
     player_select = input(
-        "Enter rock, paper, or scissors to begin game: ")  # prompt for player to enter their selection
+        "\nEnter rock, paper, or scissors to begin game: ")  # prompt for player to enter their selection
     selection = str(random.sample(computer, 1))[1:-1]  # computer's random selection, remove brackets
     computer_select = selection.replace("'", "")  # remove quotation marks from selection
     play_again = "yes"
